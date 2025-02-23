@@ -1,0 +1,180 @@
+<!DOCTYPE HTML>
+<html lang="en">
+
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+  <title>Francesco Croce</title>
+
+  <meta name="author" content="Jon Barron">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <link rel="stylesheet" type="text/css" href="stylesheet.css">
+  <link rel="icon" type="image/jpg" href="">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+  <style>
+    .container {
+      max-width: 800px;
+      margin: auto;
+      display: flex;
+      align-items: flex-start;
+      gap: 40px;
+    }
+    .profile-pic {
+      flex: 1;
+      max-width: 30%;
+      text-align: center;
+      vertical-align: middle;
+      padding: 0%;
+    }
+    .profile-pic img {
+      width: 100%;
+      border-radius: 10px;
+    }
+    .content {
+      flex: 2;
+      text-align: justify;
+    }
+    .news {
+      max-width: 800px;
+      margin: auto;
+      padding: 0px;
+      text-align: justify;
+      flex: 2;
+    }
+    .news-item {
+    display: flex;
+    gap: 10px;
+    align-items: top;
+    }
+
+    .date-box {
+        /* background-color: #f0f0f0; */
+        padding: 5px 10px;
+        border-radius: 5px;
+        font-weight: bold;
+        white-space: nowrap;
+        /* vertical-align: top; */
+    }
+
+    .content-box {
+        /* background-color: #e0e0e0; */
+        padding: 5px 10px;
+        border-radius: 5px;
+        flex-grow: 1;
+    }
+    .custom-list {
+    margin-top: 8px;  /* Adjusts space above the list */
+    padding-left: 25px; /* Adjusts indentation */
+    }
+
+    .custom-list li {
+        margin-bottom: 6px; /* Adjusts spacing between items */
+    }
+
+  </style>
+</head>
+
+<body>
+  <div class="container">
+    <div class="profile-pic">
+      <a href="assets/photo_read.jpeg">
+        <img src="assets/photo_read.jpeg" alt="profile photo">
+      </a>
+      <p>
+        <a href="mailto:"><i class="fa-solid fa-envelope fa-xl"></i></a> &nbsp&nbsp;
+        <a href=""><i class="fa-brands fa-google-scholar fa-xl"></i></a> &nbsp&nbsp;
+        <a href=""><i class="fab fa-github fa-xl"></i></a> &nbsp&nbsp;
+        <a href=""><i class="fa-brands fa-x-twitter fa-xl"></i></a> &nbsp&nbsp;
+        <a href="assets/cv.pdf" style="font-size: 24px;">CV</a>
+      </p>
+    </div>
+    <div class="content">
+      <h1>Francesco Croce</h1>
+      <p>
+        I am currently a postdoctoral researcher at EPFL in the TML Laboratory led by 
+        <a href="https://people.epfl.ch/nicolas.flammarion">Prof. Nicolas Flammarion</a>.
+        I completed my PhD in Computer Science in 2023 in the
+        Machine Learning Group at the University of Tübingen, supervised by 
+        <a href="https://uni-tuebingen.de/fakultaeten/mathematisch-naturwissenschaftliche-fakultaet/fachbereiche/informatik/lehrstuehle/maschinelles-lernen/team/prof-dr-matthias-hein/">Prof. Matthias Hein</a>.
+        I received my BSc and MSc in Mathematics from the University of Torino. I also interned at DeepMind London in 2022, hosted by
+        <a href="https://scholar.google.de/citations?hl=en&user=7wclGnQAAAAJ">Sven Gowal</a>.
+      </p>
+      <!-- <p>
+        My PhD thesis received the <a href="https://www.dagm.de/award-winners/dagm-mvtec-dissertation-award">DAGM MVTec Dissertation Award 2024</a>,
+        which honors an outstanding dissertation in computer vision and machine learning,
+        and the <a href="https://uni-tuebingen.de/en/fakultaeten/mathematisch-naturwissenschaftliche-fakultaet/fachbereiche/informatik/forschung/wilhelm-schickard-dissertation-award/">Wilhelm Schickard Dissertation Award 2024</a>
+        for best dissertation in the Department of Computer Science at the University of Tübingen.
+      </p> -->
+      <p>
+        My current research focuses on multimodal foundation models.
+        I investigate their adversarial robustness (jailbreaks, backdoors, etc.), especially for safe AI systems.
+        Moreover, I am exploring their ability to capture different aspects of human perception, e.g., visual and semantic similarity.
+        Overall, I want to better understand and improve the interaction among multiple data modalities.
+      </p>
+      <p>
+        <b>
+            I am currently exploring faculty and industry positions.
+            If you believe my profile would be a good fit, feel free to reach out!
+        </b>
+      </p>
+      
+    </div>
+  </div>
+
+  <!-- <div class="news">
+    <div class="content">
+        <hr>
+    <h2>Research</h2>
+    <p>
+        I 
+      During my postdoc, my focus has shifted to modern foundation models.
+      First, I explored the adversarial vulnerabilities of SAM, CLIP, and frontier large
+      language models [ICML'24a, SaTML'24, ICLR'25a]. Then, I investigated different strategies,
+      based on supervised fine-tuning and in-context learning, for enhancing the instruction-following
+      capabilities of LLMs [ICML'24b, ICLR'25b]. Finally, I studied vision-language foundation models as
+      perceptual metrics [SaTML'25, arXiv'24], designing a novel benchmark to evaluate frontier models across
+      unimodal and multimodal perceptual tasks.
+    </p>
+    </div>
+  </div> -->
+
+  <div class="news">
+    <div class="content">
+        <hr>
+    <h2>Awards</h2>
+    <ul class="custom-list">
+        <li><a href="https://www.dagm.de/award-winners/dagm-mvtec-dissertation-award">DAGM MVTec Dissertation Award 2024</a>,
+            which honors an <b>outstanding dissertation</b> in the fields of pattern recognition, image processing, machine vision, and machine learning</li>
+        <li><a href="https://uni-tuebingen.de/en/fakultaeten/mathematisch-naturwissenschaftliche-fakultaet/fachbereiche/informatik/forschung/wilhelm-schickard-dissertation-award/">Wilhelm Schickard Dissertation Award 2024</a>
+            for <b>best dissertation</b> in the Department of Computer Science at the University of Tübingen</li>
+        <li><b>1st place</b> at the <a href="https://github.com/ethz-spylab/rlhf_trojan_competition">Find the Trojan: Universal Backdoor Detection in Aligned LLMs</a> competition, co-located with SaTML 2024</li>
+        <li><b>Best Paper Honorable Mention Award</b> for <a href="https://robustbench.github.io/">RobustBench: a standardized adversarial robustness benchmark</a> at ICLR 2021 Workshop on Security and Safety in ML Systems</li>
+        <li><b>Honorable Mention Award</b> for <a href="https://arxiv.org/abs/1811.11493">A randomized gradient-free attack on ReLU networks</a> at GCPR 2018</li>
+    </ul>
+    </div>
+  </div>
+
+  <div class="news">
+    <hr>
+    <h2>News</h2>
+    <div class="news-item">
+        <div class="date-box">Jan 2025</div>
+        <div class="content-box"> Three papers accepted to <b>ICLR 2025</b>: 
+            <ul class="custom-list">
+                <li><a href="https://openreview.net/forum?id=bnJgzAQjWf">Selective induction Heads: How Transformers Select Causal Structures in Context</a></li>
+                <li><a href="https://arxiv.org/abs/2405.19874">Is in-Context learning sufficient for instruction following in LLMs?</a></li>
+                <li><a href="https://arxiv.org/abs/2404.02151">Jailbreaking leading safety-aligned LLMs with simple adaptive attacks</a></li>
+            </ul>
+        </div>
+    </div>
+    <div class="news-item">
+        <div class="date-box">Jan 2025</div>
+        <div class="content-box"> Our paper
+            <a href="https://arxiv.org/abs/2502.11725">Adversarially Robust CLIP Models Can Induce Better (Robust) Perceptual Metrics</a>
+            is accepted to <b>SaTML 2025</b>!
+        </div>
+    </div>
+</div>
+</body>
+</html>

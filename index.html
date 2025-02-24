@@ -46,15 +46,18 @@
     display: flex;
     gap: 10px;
     align-items: top;
+    margin-top: 8px;
     }
 
     .date-box {
+        width: 75px;
         /* background-color: #f0f0f0; */
         padding: 5px 10px;
         border-radius: 5px;
         font-weight: bold;
         white-space: nowrap;
         /* vertical-align: top; */
+        flex-shrink: 0;
     }
 
     .content-box {
@@ -66,6 +69,7 @@
     .custom-list {
     margin-top: 8px;  /* Adjusts space above the list */
     padding-left: 25px; /* Adjusts indentation */
+    margin-bottom: 8px;
     }
 
     .custom-list li {
@@ -107,9 +111,11 @@
         for best dissertation in the Department of Computer Science at the University of Tübingen.
       </p> -->
       <p>
+        During my PhD I worked mostly on adversarial robustness in vision tasks, developing <a href="https://github.com/fra31/auto-attack">AutoAttack</a>
+        and <a href="https://robustbench.github.io/">RobustBench</a>.
         My current research focuses on multimodal foundation models.
         I investigate their adversarial robustness (jailbreaks, backdoors, etc.), especially for safe AI systems.
-        Moreover, I am exploring their ability to capture different aspects of human perception, e.g., visual and semantic similarity.
+        Also, I am exploring their ability to capture different aspects of human perception, e.g., visual and semantic similarity.
         Overall, I want to better understand and improve the interaction among multiple data modalities.
       </p>
       <p>
@@ -149,6 +155,7 @@
         <li><a href="https://uni-tuebingen.de/en/fakultaeten/mathematisch-naturwissenschaftliche-fakultaet/fachbereiche/informatik/forschung/wilhelm-schickard-dissertation-award/">Wilhelm Schickard Dissertation Award 2024</a>
             for <b>best dissertation</b> in the Department of Computer Science at the University of Tübingen</li>
         <li><b>1st place</b> at the <a href="https://github.com/ethz-spylab/rlhf_trojan_competition">Find the Trojan: Universal Backdoor Detection in Aligned LLMs</a> competition, co-located with SaTML 2024</li>
+        <li>Our paper <a href="https://arxiv.org/abs/2003.01690">Reliable evaluation of adversarial robustness with an ensemble of diverse and parameter-free attacks</a> introducing AutoAttack is the <a href="https://www.paperdigest.org/2023/09/most-influential-icml-papers-2023-09/"><b>5th most influential paper of ICML 2020</b></a></li>
         <li><b>Best Paper Honorable Mention Award</b> for <a href="https://robustbench.github.io/">RobustBench: a standardized adversarial robustness benchmark</a> at ICLR 2021 Workshop on Security and Safety in ML Systems</li>
         <li><b>Honorable Mention Award</b> for <a href="https://arxiv.org/abs/1811.11493">A randomized gradient-free attack on ReLU networks</a> at GCPR 2018</li>
     </ul>
@@ -156,6 +163,7 @@
   </div>
 
   <div class="news">
+    &nbsp
     <hr>
     <h2>News</h2>
     <div class="news-item">
@@ -163,7 +171,7 @@
         <div class="content-box"> Three papers accepted to <b>ICLR 2025</b>: 
             <ul class="custom-list">
                 <li><a href="https://openreview.net/forum?id=bnJgzAQjWf">Selective induction Heads: How Transformers Select Causal Structures in Context</a></li>
-                <li><a href="https://arxiv.org/abs/2405.19874">Is in-Context learning sufficient for instruction following in LLMs?</a></li>
+                <li><a href="https://arxiv.org/abs/2405.19874">Is in-context learning sufficient for instruction following in LLMs?</a></li>
                 <li><a href="https://arxiv.org/abs/2404.02151">Jailbreaking leading safety-aligned LLMs with simple adaptive attacks</a></li>
             </ul>
         </div>
@@ -175,6 +183,20 @@
             is accepted to <b>SaTML 2025</b>!
         </div>
     </div>
+    <div class="news-item">
+      <div class="date-box">Dec 2024</div>
+      <div class="content-box">New paper
+          <a href="https://arxiv.org/abs/2412.10594">Towards Unified Benchmark and Models for Multi-Modal Perceptual Metrics</a>
+          available on arXiv. Check out our <a href="https://github.com/SaraGhazanfari/UniSim/tree/main">UniSim</a> benchmark and models!
+      </div>
+  </div>
+  <div class="news-item">
+    <div class="date-box">Dec 2024</div>
+    <div class="content-box">New paper
+        <a href="https://arxiv.org/abs/2412.00727">Perturb and Recover: Fine-tuning for Effective Backdoor Removal from CLIP</a>
+        available on arXiv!
+    </div>
+</div>
 </div>
 </body>
 </html>

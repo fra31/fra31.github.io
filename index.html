@@ -24,12 +24,18 @@
       flex: 1;
       max-width: 30%;
       text-align: center;
-      vertical-align: middle;
       padding: 0%;
+      margin-top: 80px; /* increase/decrease this */
     }
     .profile-pic img {
       width: 100%;
       border-radius: 10px;
+    }
+    .photo-credit {
+      font-size: 12px;
+      color: #999;
+      margin: 6px 0 0 0;
+      line-height: 1.3;
     }
     .content {
       flex: 2;
@@ -92,9 +98,11 @@
 <body>
   <div class="container">
     <div class="profile-pic">
-      <a href="assets/photo_read.jpeg">
-        <img src="assets/photo_read.jpeg" alt="profile photo">
+      <a href="">
+        <!-- <img src="assets/photo_read.jpeg" alt="profile photo"> -->
+        <img src="assets/Aalto_University_Francesco_Croce_7-10-2025_by_Matti_Ahlgren-3 (1).jpg" alt="profile photo" style="width: 100%; border-radius: 10px;">
       </a>
+      <p class="photo-credit">photo: Matti Ahlgren/Aalto University</p>
       <p>
         <a href="mailto:francesco.croce@aalto.fi"><i class="fa-solid fa-envelope fa-xl"></i></a> &nbsp&nbsp;
         <a href="https://scholar.google.de/citations?user=laq9cq0AAAAJ"><i class="fa-brands fa-google-scholar fa-xl"></i></a> &nbsp&nbsp;
